@@ -1,3 +1,6 @@
+;; init
+(setq inhibit-startup-screen t)
+
 ;; toolbar
 (tool-bar-mode 0)
 
@@ -17,7 +20,7 @@
 
 ;; frames
 (add-to-list 'default-frame-alist '(width . 80))
-(add-to-list 'default-frame-alist '(height . 60))
+(add-to-list 'default-frame-alist '(height . 55))
 
 ;; resize
 (global-set-key (kbd "<M-up>") 'shrink-window)
