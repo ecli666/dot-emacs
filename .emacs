@@ -8,11 +8,11 @@
 (menu-bar-mode 0)
 
 ;; c
-(setq-default c-basic-offset 4)
+(setq-default c-basic-offset 8)
 (setq-default c-default-style "linux")
 
 ;; edit
-(setq-default tab-width 4)
+(setq-default tab-width 8)
 (setq-default indent-tabs-mode t)
 
 ;; encoding
@@ -62,4 +62,7 @@
 
 ;; apply dark theme
 (load-theme 'solarized-dark t)
+
+;; disable auto backup file
+(setq make-backup-files nil)
 
